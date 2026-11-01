@@ -1,0 +1,14 @@
+import './ctrip-flight.js';
+import './trip-hotel.js';
+import './booking-hotel.js';
+import './agoda-hotel.js';
+import './jalan-hotel.js';
+import './expedia-hotel.js';
+import './rakuten-hotel.js';
+import './tongcheng-hotel.js';
+import './fliggy-hotel.js';
+import './qunar-hotel.js';
+import './flight-probes.js';
+import './fliggy-flight.js';
+import './expedia-flight.js';
+import './qunar-flight.js';
