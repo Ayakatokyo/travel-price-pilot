@@ -1,0 +1,4 @@
+{
+  "purpose": "示例：旅行报价采集；查询城市、日期和人数由命令行传入",
+  "excluded_providers": ["qunar", "tongcheng"]
+}
