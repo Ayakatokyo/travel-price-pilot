@@ -1,0 +1,20 @@
+{
+  "name": "travel-price-pilot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal travel quote collection and comparison evidence using OpenCLI",
+  "scripts": {
+    "opencli": "node --import ./adapters/travel-price/index.mjs node_modules/@jackwener/opencli/dist/src/main.js",
+    "doctor": "opencli doctor",
+    "collect": "python3 opencli_probe.py",
+    "browser:start": "python3 browser_session.py start",
+    "browser:stop": "python3 browser_session.py stop",
+    "test": "python3 -m unittest -v && node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "dependencies": {
+    "@jackwener/opencli": "2.0.2"
+  }
+}
