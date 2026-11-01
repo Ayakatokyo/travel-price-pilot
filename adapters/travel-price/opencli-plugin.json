@@ -1,0 +1,6 @@
+{
+  "name": "travel-price",
+  "version": "0.1.0",
+  "opencli": "2.0.2",
+  "description": "Project-owned travel adapters; upstream extraction is reused without modifying OpenCLI"
+}
